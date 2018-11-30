@@ -65,7 +65,7 @@
         margin: 0;
         left: 0;
         right: 0;
-        padding: 100px 60px 0;
+        padding: 100px 40px 0;
     }
 
     .login .login-header {
@@ -73,7 +73,8 @@
         top: -80px;
         left: 50%;
         right: 0;
-        width: 450px;
+        /* width: 450px; */
+        width: 100%;
         padding: 0 40px;
         margin-left: -225px;
         font-weight: 300;
