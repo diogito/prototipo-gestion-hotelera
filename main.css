@@ -24,9 +24,12 @@ h3 {
 
 /*NavBar*/
 
-
+.brand-container {
+	display: flex;
+    align-items: normal;
+}
 .navbar-brand-logo {
-	height: 50px;
+	height: 35px;
 }
 
 .logo {
