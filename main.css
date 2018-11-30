@@ -10,8 +10,6 @@ body {
     color: #212529;
     text-align: left;
 	background: #faf7f3 !important;
-	overflow-y: hidden;
-	overflow-x: hidden; 
 }
 
 h3 {
