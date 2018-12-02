@@ -19,7 +19,7 @@
 		<div id="app" class="container-fluid h-100">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="brand-container">
-					<img class="navbar-brand-logo" src="https://i.imgur.com/2x1ewTQ.jpg">
+					<i class="navbar-brand-logo fas fa-hotel"></i>
 					<a class="navbar-brand" href="index.html">Gestión Hotelera</a>
 				</div>
 
@@ -29,18 +29,6 @@
 				
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html" ><i class="fa fa-tachometer-alt"></i>
-								Dashboard <span class="sr-only"></span></a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="solicitud.html" ><i class="fa fa-calendar-plus"></i>
-								Solicitud de Alojamiento <span class="sr-only"></span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="reservas.html" ><i class="fa fa-list-alt"></i>
-								Reservas <span class="sr-only"></span></a>
-						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="gestion-alojamiento.html" ><i class="fas fa-bed"></i>
 								Gestion de habitaciones <span class="sr-only"></span></a>
@@ -87,13 +75,30 @@
 			<section class="main container-fluid h-100">
 				<div class="row justify-content-center h-100">
 					<div class="sidebar d-none d-lg-block d-xl-block" id="yellow">
-						<ul class="ui-tabs-nav">					
+						<ul class="ui-tabs-nav">
 							<li>
-								<a class="ui-tabs-anchor">
-									<a class="ui-tabs-anchor">
-										<i class="fa fa-angle-right"></i>
-									Solicitud de alojamiento
+								<a href="solicitud.html" class="ui-tabs-anchor">
+									<i class="fa fa-angle-right"></i>
+								Solicitud de alojamiento
 								</a>
+							</li>	
+							<li>
+								<a class="ui-tabs-anchor">Reserva</a>
+							</li>
+							<li>
+								<a href="reservas.html" class="ui-tabs-anchor">Reserva por solicitud</a>
+							</li>					
+							<li>
+								<a class="ui-tabs-anchor">Asignación</a>
+							</li>
+							<li>
+								<a class="ui-tabs-anchor">Liberación</a>
+							</li>
+							<li>
+								<a class="ui-tabs-anchor">Check Out</a>
+							</li>
+							<li>
+								<a class="ui-tabs-anchor">Censo</a>
 							</li>
 						</ul>
 					</div>
@@ -104,7 +109,7 @@
 									<h2>Administrar <b>Solicitudes de alojamiento</b> | Nueva Solicitud</h2>
 								</div>
 								<div class="col-sm-6">
-									<a href="nueva-solicitud.html" class="btn btn-success" style="background-color: #0069d9"><i class="fas fa-save"></i><span>Guardar</span></a>
+									
 								</div>
 							</div>
 						</div>
@@ -164,6 +169,7 @@
 								<div class="col-sm-6">
 									<a href="nueva-solicitud.html" class="btn btn-success"><i class="fas fa-plus-circle"></i><span>Nuevo Pasajero</span></a>
 									<a href="generar-reserva.html" class="btn btn-success"><i class="fas fa-calendar-plus"></i><span>Generar Reserva</span></a>
+									<a href="nueva-solicitud.html" class="btn btn-success" style="background-color: #0069d9"><i class="fas fa-save"></i><span>Guardar</span></a>
 								</div>																
 							</div>
 						</div>

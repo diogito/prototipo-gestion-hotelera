@@ -22,14 +22,56 @@ h3 {
 	padding: 0;
 }
 
+/*Bootstrap customization*/
+
+.form-control {
+	height: calc(1.6rem + 2px);
+	font-size: 0.7rem;
+}
+
+label {
+	margin-bottom: .1rem;
+}
+
+.content-box {
+    padding: 10px 5px !important;
+}
+
+.table {
+	margin-bottom: .2rem;
+}
+
+.pagination li a {
+	font-size: 12px;
+}
+
+.table-title h2 {
+    margin: 5px 0 0;
+    font-size: 15px !important;
+}
+
+.form-group {
+    margin-bottom: .2rem;
+}
+
+.gj-datepicker-bootstrap [role=right-icon] button .gj-icon, .gj-datepicker-bootstrap [role=right-icon] button .material-icons {
+    top: 3px !important;
+}
+
 /*NavBar*/
+
+.navbar {
+	padding: 0rem .5rem; 
+}
 
 .brand-container {
 	display: flex;
-    align-items: normal;
+	align-items: center;
+	color: green;
 }
 .navbar-brand-logo {
-	height: 35px;
+	font-size: 25px;
+	padding-right: 2px;
 }
 
 .logo {
@@ -147,7 +189,7 @@ ui-tabs-nav li a i {
 /*CRUD*/
 .table-wrapper {
 	background: #fff;
-	padding: 20px 25px;
+	padding: 12px 5px;
 	/* margin: 30px 0; */
 	border-radius: 3px;
 	box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -180,11 +222,25 @@ ui-tabs-nav li a i {
 	outline: none !important;
 	margin-left: 10px;
 }
+
+.left {
+	float: left !important;
+}
+
 .table-title .btn i {
 	float: left;
-	font-size: 21px;
+	margin-top: 5px;
 	margin-right: 5px;
 }
+
+.table-title h2 {
+	margin: 0 0;
+}
+
+table.table tr th, table.table tr td {
+	padding: 2px 15px !important;
+}
+
 .table-title .btn span {
 	float: left;
 	margin-top: 2px;
@@ -366,7 +422,7 @@ table.table .avatar {
 }
 
 .badge-pill {
-	font-size: 10pt;
+	font-size: 9pt;
 }
 
 .badge-link {
