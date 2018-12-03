@@ -230,6 +230,7 @@ ui-tabs-nav li a i {
 	border: none;
 	outline: none !important;
 	margin-left: 10px;
+	padding: 2px 5px !important;
 }
 
 .left {
