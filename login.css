@@ -117,6 +117,13 @@
         display: flex !important;
     }
 
+    .navbar-brand-logo {
+        font-size: 40px;
+        padding-right: 2px;
+        color: green;
+    }
+    
+
     @media (max-width: 767px) {
         .login {
             margin: 0;

@@ -138,6 +138,15 @@ li > a > i {
 	border-radius: 0;
 }
 
+.sidebar a:hover {
+	color: green;
+}
+
+.sidebar a.active {
+	color: green !important;
+	font-weight: 500;
+}
+
 .ui-tabs-nav {
     margin: 0 0 10px 0;
     padding: 0;
@@ -202,7 +211,7 @@ ui-tabs-nav li a i {
 	/* border-radius: 3px 3px 0 0; */
 }
 .table-title.over-table {        
-	margin: -20px -25px 10px;
+	margin: -20px -5px 10px;
 }
 .table-title h2 {
 	margin: 5px 0 0;
@@ -269,7 +278,7 @@ table.table th i {
 }	
 table.table td:last-child i {
 	opacity: 0.9;
-	font-size: 22px;
+	font-size: 17px;
 	margin: 0 5px;
 }
 table.table td a {
