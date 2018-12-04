@@ -146,6 +146,16 @@ li > a > i {
 	color: green !important;
 	font-weight: 500;
 }
+.logo-compass {
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	width: inherit;
+	left: 0;
+}
+.logo-compass img {
+	width: 120px;
+}
 
 .ui-tabs-nav {
     margin: 0 0 10px 0;

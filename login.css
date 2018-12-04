@@ -57,6 +57,7 @@
     .login.login-with-news-feed .right-content {
         float: right;
         width: 500px;
+        height: 100vh;
     }
 
     .login.login-with-news-feed .login-header {
@@ -122,9 +123,23 @@
         padding-right: 2px;
         color: green;
     }
+
+    .logo-compass {
+        position: absolute;
+        bottom: 20px;
+        width: inherit;
+        text-align: center;
+    }
+
+    .logo-compass img {
+        width: 200px;
+    }
     
 
     @media (max-width: 767px) {
+        .logo-compass {
+            width: 100%;
+        }
         .login {
             margin: 0;
             position: absolute;
@@ -178,6 +193,8 @@
             padding-right: 45px;
         }
     }
+
+
 
     @media (max-width: 768px) {
         .login.login-with-news-feed .right-content {
