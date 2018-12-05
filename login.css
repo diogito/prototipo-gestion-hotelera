@@ -34,6 +34,18 @@
         border-color: rgb(170, 150, 94);
     }
 
+    .btn-login:active {
+        background-color: rgb(170, 150, 94) !important;
+        border-color: rgb(170, 150, 94) !important;
+    }
+    .btn-login:focus {
+        box-shadow: 0 0 0 0.2rem rgb(170, 150, 94) !important;
+    }
+
+    .btn-login:active:focus {
+        box-shadow: 0 0 0 0.2rem rgb(170, 150, 94) !important;
+    }
+
     .login {
         margin: -168px 0 0;
         position: absolute;

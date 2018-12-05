@@ -262,7 +262,11 @@ ui-tabs-nav li a i {
 }
 
 .table-title .btn:focus {
-	box-shadow: 0 0 0 0.2rem #ddc68c;
+	box-shadow: 0 0 0 0.2rem #ddc68c !important;
+}
+
+.table-title .btn:active:focus {
+	box-shadow: 0 0 0 0.2rem #ddc68c !important;
 }
 
 .left {
