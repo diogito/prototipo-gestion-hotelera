@@ -16,6 +16,24 @@
         width: 50px;
     }
 
+    .text-link {
+        color: rgb(170, 150, 94) !important;
+    }
+
+    .text-link:hover {
+        color: rgb(170, 150, 94) !important;
+    }
+
+    .btn-login {
+        background-color: #ddc68c;
+        border-color: #ddc68c;
+    }
+
+    .btn-login:hover {
+        background-color: rgb(170, 150, 94);
+        border-color: rgb(170, 150, 94);
+    }
+
     .login {
         margin: -168px 0 0;
         position: absolute;
@@ -121,7 +139,7 @@
     .navbar-brand-logo {
         font-size: 40px;
         padding-right: 2px;
-        color: green;
+        color: rgb(170, 150, 94);
     }
 
     .logo-compass {
